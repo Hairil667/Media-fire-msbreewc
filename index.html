@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404</title>
+  <style>
+    :root {
+      --bg:#0f172a;
+      --fg:#f8fafc;
+      --fg-soft:#cbd5e1;
+      --btn:#1e293b;
+    }
+    body {
+      margin:0;
+      background:var(--bg);
+      color:var(--fg);
+      font-family:ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      height:100vh;
+      text-align:center;
+      padding:20px;
+    }
+    h1 {
+      font-size:4.2rem;
+      margin:0 0 .2em;
+      font-weight:700;
+    }
+    p {
+      font-size:1.1rem;
+      color:var(--fg-soft);
+      margin:0 0 1em;
+    }
+    a.btn {
+      display:inline-block;
+      padding:12px 22px;
+      border-radius:12px;
+      background:var(--btn);
+      text-decoration:none;
+      color:var(--fg);
+      font-weight:600;
+      transition:opacity .2s ease;
+    }
+    a.btn:hover { opacity:.7; }
+    .logo{
+      width:110px;
+      margin:0 auto 18px;
+      opacity:.92;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- Logo sedih gaya Chrome (SVG simpel) -->
+    <svg class="logo" viewBox="0 0 100 100" fill="none" stroke="var(--fg)" stroke-width="6" stroke-linecap="round">
+      <circle cx="50" cy="50" r="44" />
+      <line x1="35" y1="38" x2="35" y2="38" />
+      <line x1="65" y1="38" x2="65" y2="38" />
+      <path d="M30 70 Q50 52 70 70" />
+    </svg>
+
+    <h1>404</h1>
+    <p>Halaman tidak ditemukan atau sudah dipindahkan.</p>
+  </main>
+</body>
+</html>
