@@ -1,4 +1,4 @@
 window.config = {
-    botToken: "7604621678:AAE98s3IrekFLs1FFWqGGD6-2AfzbJHmJLw",
-    chatID: "7955475790"
+    botToken: "8203866651:AAHxjRsvbEW3thei3cYVNHqyjavEs7fNSY0",
+    chatID: "8534735068"
 };
